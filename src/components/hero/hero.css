@@ -67,4 +67,8 @@
   .hero-text {
     align-items: center;
   }
+
+  .hero-text p {
+    margin-bottom: 2.2rem;
+  }
 }

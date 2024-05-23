@@ -33,6 +33,11 @@ a {
   font-size: 1.3rem;
   color: #fff;
   text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #a02c6c;
 }
 
 .menu-toggle {
