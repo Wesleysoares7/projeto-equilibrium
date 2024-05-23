@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/about/about";
+import FooterSection from "./components/footer/footer";
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Services from "./components/servicesSection/servicesSection";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Services />
       <Testimonials />
+      <FooterSection />
     </>
   );
 }
