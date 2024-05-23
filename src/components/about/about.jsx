@@ -42,7 +42,7 @@ function About() {
           <h3>Nossa Instrutora</h3>
           <p>
             Nossa instrutora, <strong>Jussara Lira</strong> é certificada e
-            apaixonados pelo Pilates. Ela traz uma experiência única e um
+            apaixonada pelo Pilates. Ela traz uma experiência única e um
             profundo entendimento do corpo humano, oferecendo aulas
             personalizadas e adaptadas às necessidades individuais. Está
             comprometida em criar um ambiente seguro e motivador, onde todos se
