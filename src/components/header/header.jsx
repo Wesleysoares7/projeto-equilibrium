@@ -50,19 +50,19 @@ const Header = () => {
           </div>
           <ul ref={menuRef} className={`menu ${isMenuOpen ? "open" : ""}`}>
             <li>
-              <a href="#Hero">Home</a>
+              <a href="#hero">Home</a>
             </li>
             <li>
-              <a href="#Sobre">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </li>
             <li>
-              <a href="#Serviço">Serviços</a>
+              <a href="#serviço">Serviços</a>
             </li>
             <li>
-              <a href="#Depoimentos">Depoimentos</a>
+              <a href="#sepoimentos">Depoimentos</a>
             </li>
             <li>
-              <a href="#Contato">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>
