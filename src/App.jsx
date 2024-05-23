@@ -1,5 +1,5 @@
 import "./App.css";
-import Button from "./components/button/button";
+import About from "./components/about/about";
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 
@@ -8,6 +8,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <About />
     </>
   );
 }
