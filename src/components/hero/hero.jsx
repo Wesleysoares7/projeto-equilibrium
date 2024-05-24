@@ -1,12 +1,13 @@
 import Button from "../button/button";
 import "./hero.css";
+import HeroImage from "./hero.jpg";
 
 const Hero = () => {
   return (
     <section id="hero">
       <div className="hero">
         <img
-          src="./public/hero.jpg"
+          src={HeroImage}
           alt="imagem de tres pessoas fazendo exercicio de pilates"
         />
         <div className="hero-text">
