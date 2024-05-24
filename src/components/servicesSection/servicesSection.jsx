@@ -1,5 +1,9 @@
 import "./servicesSection.css";
 
+import ClassicoImg from "./images/classico.png";
+import ReabilitacaoImg from "./images/reabilitacao.png";
+import GrupoImg from "./images/grupo.png";
+
 const Services = () => {
   return (
     <section id="services" className="service-section">
@@ -8,7 +12,7 @@ const Services = () => {
       </div>
       <div className="service-content">
         <div className="service-card">
-          <img src="./public/classico.png" alt="" />
+          <img src={ClassicoImg} alt="mulher praticando pilaes" />
           <div className="service-text">
             <h3>Pilates Clássico</h3>
             <p>
@@ -18,7 +22,10 @@ const Services = () => {
           </div>
         </div>
         <div className="service-card">
-          <img src="./public/reabilitacao.png" alt="" />
+          <img
+            src={ReabilitacaoImg}
+            alt="mulher idosa com instrutor praticando pilates"
+          />
           <div className="service-text">
             <h3>Pilates para Reabilitação</h3>
             <p>
@@ -28,7 +35,10 @@ const Services = () => {
           </div>
         </div>
         <div className="service-card">
-          <img src="./public/grupo.png" alt="" />
+          <img
+            src={GrupoImg}
+            alt="mulher fazendo o mesmo exercicio de pilates"
+          />
           <div className="service-text">
             <h3>Aulas em Grupo</h3>
             <p>
