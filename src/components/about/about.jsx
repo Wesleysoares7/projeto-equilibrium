@@ -1,7 +1,14 @@
 import Button from "../button/button";
 import "./about.css";
 
-function About() {
+import Logo from "./images/logo.png";
+import Filosofia from "./images/filosofia.png";
+import Instrutora from "./images/hero2.png";
+import AboutImg from "./images/about1.png";
+import Espaco from "./images/espaco.png";
+import Localizacao from "./images/localizacao.png";
+
+const About = () => {
   return (
     <section id="sobre" className="about-section">
       <div className="about">
@@ -20,10 +27,10 @@ function About() {
             possa explorar e alcançar seu potencial máximo através do Pilates.
           </p>
         </div>
-        <img src="./public/logo.png" alt="" />
+        <img src={Logo} alt="Logo" />
       </div>
       <div className="about-philosophy about-card card-two">
-        <img src="./public/filosofia.png" alt="" />
+        <img src={Filosofia} alt="Foto Jussara em aparelho de pilates" />
         <div className="about-philosophy-text">
           <h3>Nossa Filosofia</h3>
           <p>
@@ -49,10 +56,10 @@ function About() {
             sintam bem-vindos e encorajados a crescer.
           </p>
         </div>
-        <img src="./public/hero2.png" alt="" />
+        <img src={Instrutora} alt="" />
       </div>
       <div className="about-card card-two about-services">
-        <img src="./public/about1.png" alt="" />
+        <img src={AboutImg} alt="" />
         <div className="about-services-text">
           <h3>O que Oferecemos</h3>
           <p>Aulas de Pilates em Aparelhos</p>
@@ -73,10 +80,10 @@ function About() {
             e conectar-se com seu corpo e mente.
           </p>
         </div>
-        <img src="./public/espaco.png" alt="" />
+        <img src={Espaco} alt="" />
       </div>
       <div className="about-card card-two about-location">
-        <img src="./public/localizacao.png" alt="" />
+        <img src={Localizacao} alt="" />
         <div className="about-location-text">
           <h3>Venha nos Conhecer</h3>
           <p>
@@ -93,6 +100,6 @@ function About() {
       </div>
     </section>
   );
-}
+};
 
 export default About;
