@@ -1,36 +1,43 @@
 import "./testimonials.css";
 
+import PhotoOne from "./images/photo1.png";
+import PhotoTwo from "./images/photo2.png";
+import PhotoThree from "./images/photo3.png";
+import PhotoFour from "./images/photo4.png";
+import PhotoFive from "./images/photo5.png";
+import PhotoSix from "./images/photo6.png";
+
 const Testimonials = () => {
   const testimonials = [
     {
       name: "Maria Silva",
       text: "As aulas de pilates transformaram minha vida! Melhorei minha postura e reduzi minhas dores nas costas.",
-      photo: "./public/photo1.png",
+      photo: PhotoOne,
     },
     {
       name: "Carlos Souza",
       text: "O ambiente do estúdio é incrível e os instrutores são extremamente qualificados. Recomendo a todos!",
-      photo: "./public/photo2.png",
+      photo: PhotoTwo,
     },
     {
       name: "Ana Paula",
       text: "Graças às sessões de pilates, recuperei minha mobilidade após uma lesão no joelho.",
-      photo: "./public/photo3.png",
+      photo: PhotoThree,
     },
     {
       name: "João Pedro",
       text: "Aula em grupo é muito divertida e motivadora. Sinto-me mais saudável e energizado!",
-      photo: "./public/photo4.png",
+      photo: PhotoFour,
     },
     {
       name: "Mariana Lima",
       text: "A abordagem personalizada dos instrutores faz toda a diferença. Me sinto muito bem cuidada aqui.",
-      photo: "./public/photo5.png",
+      photo: PhotoFive,
     },
     {
       name: "Fernanda Oliveira",
       text: "O estúdio é lindo e bem equipado. Sinto-me renovada após cada aula de pilates.",
-      photo: "./public/photo6.png",
+      photo: PhotoSix,
     },
   ];
 
