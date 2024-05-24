@@ -20,10 +20,10 @@ function About() {
             possa explorar e alcançar seu potencial máximo através do Pilates.
           </p>
         </div>
-        <img src="./assets/logo.png" alt="" />
+        <img src="./public/logo.png" alt="" />
       </div>
       <div className="about-philosophy about-card card-two">
-        <img src="./assets/filosofia.png" alt="" />
+        <img src="./public/filosofia.png" alt="" />
         <div className="about-philosophy-text">
           <h3>Nossa Filosofia</h3>
           <p>
@@ -49,10 +49,10 @@ function About() {
             sintam bem-vindos e encorajados a crescer.
           </p>
         </div>
-        <img src="./assets/hero2.png" alt="" />
+        <img src="./public/hero2.png" alt="" />
       </div>
       <div className="about-card card-two about-services">
-        <img src="./assets/about1.png" alt="" />
+        <img src="./public/about1.png" alt="" />
         <div className="about-services-text">
           <h3>O que Oferecemos</h3>
           <p>Aulas de Pilates em Aparelhos</p>
@@ -73,10 +73,10 @@ function About() {
             e conectar-se com seu corpo e mente.
           </p>
         </div>
-        <img src="./assets/espaco.png" alt="" />
+        <img src="./public/espaco.png" alt="" />
       </div>
       <div className="about-card card-two about-location">
-        <img src="./assets/localizacao.png" alt="" />
+        <img src="./public/localizacao.png" alt="" />
         <div className="about-location-text">
           <h3>Venha nos Conhecer</h3>
           <p>
