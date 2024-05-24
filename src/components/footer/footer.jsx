@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const FooterSection = () => {
   return (
-    <footer className="footer">
+    <footer id="contato" className="footer">
       <div className="footer-content">
         <div className="footer-logo">Instituto Equilibrium</div>
         <div className="footer-social">

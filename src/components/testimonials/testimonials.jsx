@@ -16,7 +16,7 @@ const Testimonials = () => {
     },
     {
       name: "Carlos Souza",
-      text: "O ambiente do estúdio é incrível e os instrutores são extremamente qualificados. Recomendo a todos!",
+      text: "O ambiente do estúdio é incrível e a instrutora é extremamente qualificada. Recomendo a todos!",
       photo: PhotoTwo,
     },
     {
@@ -31,7 +31,7 @@ const Testimonials = () => {
     },
     {
       name: "Mariana Lima",
-      text: "A abordagem personalizada dos instrutores faz toda a diferença. Me sinto muito bem cuidada aqui.",
+      text: "A abordagem personalizada da instrutora faz toda a diferença. Me sinto muito bem cuidada aqui.",
       photo: PhotoFive,
     },
     {
