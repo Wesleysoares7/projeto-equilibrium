@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./header.css";
-import logo from "./logo.png";
+import Logo from "./logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Header = () => {
       <header className="interface">
         <nav>
           <div>
-            <img src={logo} alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </div>
           <div
             ref={toggleRef}
