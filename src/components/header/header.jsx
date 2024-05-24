@@ -34,7 +34,7 @@ const Header = () => {
   }, [isMenuOpen]);
 
   return (
-    <section>
+    <section className="menu-section">
       <header className="interface">
         <nav>
           <div>

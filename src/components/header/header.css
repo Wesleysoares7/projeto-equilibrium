@@ -1,9 +1,15 @@
+.menu-section {
+  padding-bottom: 5.5rem;
+}
+
 header {
+  position: fixed;
   background-color: #9b8fbd;
-  width: 100%;
+  width: 88%;
   height: 5.5rem;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  z-index: 99;
 }
 
 nav {
