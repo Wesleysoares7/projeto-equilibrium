@@ -37,7 +37,7 @@ const Header = () => {
       <header className="interface">
         <nav>
           <div>
-            <img src="./dist/assets/logo.png" alt="Logo" />
+            <img src="./public/logo.png" alt="Logo" />
           </div>
           <div
             ref={toggleRef}
