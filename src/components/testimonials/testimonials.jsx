@@ -5,32 +5,32 @@ const Testimonials = () => {
     {
       name: "Maria Silva",
       text: "As aulas de pilates transformaram minha vida! Melhorei minha postura e reduzi minhas dores nas costas.",
-      photo: "./public/assets/photo1.png",
+      photo: "./assets/photo1.png",
     },
     {
       name: "Carlos Souza",
       text: "O ambiente do estúdio é incrível e os instrutores são extremamente qualificados. Recomendo a todos!",
-      photo: "./public/assets/photo2.png",
+      photo: "./assets/photo2.png",
     },
     {
       name: "Ana Paula",
       text: "Graças às sessões de pilates, recuperei minha mobilidade após uma lesão no joelho.",
-      photo: "./public/assets/photo3.png",
+      photo: "./assets/photo3.png",
     },
     {
       name: "João Pedro",
       text: "Aula em grupo é muito divertida e motivadora. Sinto-me mais saudável e energizado!",
-      photo: "./public/assets/photo4.png",
+      photo: "./assets/photo4.png",
     },
     {
       name: "Mariana Lima",
       text: "A abordagem personalizada dos instrutores faz toda a diferença. Me sinto muito bem cuidada aqui.",
-      photo: "./public/assets/photo5.png",
+      photo: "./assets/photo5.png",
     },
     {
       name: "Fernanda Oliveira",
       text: "O estúdio é lindo e bem equipado. Sinto-me renovada após cada aula de pilates.",
-      photo: "./public/assets/photo6.png",
+      photo: "./assets/photo6.png",
     },
   ];
 
