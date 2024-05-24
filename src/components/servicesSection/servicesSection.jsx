@@ -8,7 +8,7 @@ const Services = () => {
       </div>
       <div className="service-content">
         <div className="service-card">
-          <img src="./public/images/classico.png" alt="" />
+          <img src="./public/assets/classico.png" alt="" />
           <div className="service-text">
             <h3>Pilates Clássico</h3>
             <p>
@@ -18,7 +18,7 @@ const Services = () => {
           </div>
         </div>
         <div className="service-card">
-          <img src="./public/images/reabilitacao.png" alt="" />
+          <img src="./public/assets/reabilitacao.png" alt="" />
           <div className="service-text">
             <h3>Pilates para Reabilitação</h3>
             <p>
@@ -28,7 +28,7 @@ const Services = () => {
           </div>
         </div>
         <div className="service-card">
-          <img src="./public/images/grupo.png" alt="" />
+          <img src="./public/assets/grupo.png" alt="" />
           <div className="service-text">
             <h3>Aulas em Grupo</h3>
             <p>

@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="hero">
       <div className="hero">
         <img
-          src="../public/images/hero.jpg"
+          src="../public/assets/hero.jpg"
           alt="imagem de tres pessoas fazendo exercicio de pilates"
         />
         <div className="hero-text">
